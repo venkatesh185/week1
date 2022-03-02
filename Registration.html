@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grren Page</title>
+</head>
+<body bgcolor="">
+    <center><h1><h1>Registration Form</h1></center><br>
+    <div>
+        <form action="reg.html">
+            <label><b>Name </b>&nbsp;&nbsp;<input type="text" name="name" placeholder="Enter Your Name" required></label><br><br>
+            <label><b>Email</b>&nbsp;&nbsp; <input type="text" name="email" placeholder="email@gmail.com" required></label><br><br>
+            <label><b>Male </b><input type="radio" name="gender" id="male" required><b>Female</b> <input type="radio" name="gender" id="female"></label><br><br>
+            <label><b>College</b> &nbsp;&nbsp;<input type="text" name="name" id="name" placeholder="College Name"></label><br><br>
+            <label> <b>Branch</b>
+                <select name="branch_name" id="branch_name">
+                    <option value="">----select Your Branch</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="CIVIL">CIVIL</option>
+                    <option value="IT">IT</option>
+                    <option value="Chemical">Chemical</option>
+                </select>
+            </label><br><br>
+            <label><b>Year Of Studying&nbsp;&nbsp;</b>
+                <select name="year_of_studying" id="year_of_studying">
+                    <option value="">---Year of Studying--</option>
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                </select>
+            </label><br><br>
+            <label><b>DOB</b>&nbsp;&nbsp;
+                <input type="date" name="date" id="date">
+            </label><br><br>
+            <label><b>Message:</b>&nbsp;&nbsp; </label><br>
+            <textarea name="text" id="text" cols="50" rows="5" placeholder="About your-self" required width="20" hight="5"></textarea><br><br>
+            <label>
+                <input type="submit" value="submit">
+            </label>
+        </form>
+    </div>
+</body>
+</html>
